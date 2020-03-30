@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    background-color: indianred;
+}
+.header {
+    margin: 200px auto 15px auto;
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.subheader {
+    font-size: 35px;
+    transform: translateY(-25px)
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    color: rgb(85, 74, 74);
+    font-family: 'Bungee', cursive;
+}
+.clock {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(85, 74, 74)
+}
+#lolcatImage {
+    display: block;
+    margin: 15px auto;
+    /* align-content: center; */
+}
+.imageHeader {
+    display: block;
+    margin: auto;
+    text-align: center;
+    /* font-size: 100px; */
+}

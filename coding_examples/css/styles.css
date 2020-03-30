@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.topBanner {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: pink;
+}
+
+.bannerText {
+    display: inline-block;
+    transition: all;
+    transform: translateY(30px);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Grid {
+    height: 15vh;
+    width: 15vw;
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d';
+}
+
+.gridItem1 {
+    grid-area: a;
+    background-color: red;
+}
+
+.gridItem2 {
+    grid-area: c;
+    background-color: blue;
+}
+
+.gridItem3 {
+    grid-area: b;
+    background-color: green;
+}
+
+.gridItem4 {
+    grid-area: d;
+    background-color: orange;
+}
+
+.button {
+    margin-left: 45vw;
+    /* background-color: cyan; */
+    box-shadow: 5px 2px 3px cyan;
+    transition: .5s all;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    border: 15px green solid;
+    font-size: 50px;
+}
+
+.button:hover {
+    transform: translateY(-5px) skew(20deg) rotate(360deg);
+    box-shadow: 10px 5px 5px purple;
+}
+
+.red {
+    background-color: red;
+}
+
+.big {
+    padding: 50px 25px;
+}
+
+/* .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+} */
