@@ -82,6 +82,8 @@ class Particle {
         this.y = this.lastMouse.y + Math.sin(this.radians) * this.distanceFromCenter;
         this.draw(lastPoint)
 
+
+        // original location  
     }
 }
 
